@@ -16,6 +16,7 @@ import AdminDashboard from './pages/admin/AdminDashboard';
 import ManageUsers from './pages/admin/ManageUsers';
 import ManageDieticians from './pages/admin/ManageDieticians';
 import ViewAllAppointments from './pages/admin/ViewAllAppointments';
+import VerifyDieticians from './pages/admin/VerifyDieticians';
 
 function App() {
   const [userType, setUserType] = useState('user'); // Set to 'user', 'dietician', or 'admin'
